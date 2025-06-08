@@ -144,3 +144,8 @@ See the full project report and analysis in the following PDF (only available in
 
 MIT License
 
+# Author
+```
+Abednego Zebua - 2306161883
+```
+
