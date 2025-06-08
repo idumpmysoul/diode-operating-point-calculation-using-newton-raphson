@@ -33,16 +33,6 @@ int main() {
     printf("Masukkan nilai Vt (tegangan termal): ");
     scanf("%lf", &Vt);
 
-    // Tampilkan rangkaian ASCII
-    printf("\n=== Bentuk Rangkaian ===\n");
-    printf("   Vin\n");
-    printf("    │\n");
-    printf("    ├───────>│───────┐\n");
-    printf("    │        D       │\n");
-    printf("    └──────[ R ]─────┘\n");
-    printf("             │\n");
-    printf("            GND\n");
-
     // Newton-Raphson
     FILE *fp = fopen("dioda_output.txt", "w");
     if (!fp) {
